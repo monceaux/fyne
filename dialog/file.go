@@ -9,13 +9,13 @@ import (
 	"sort"
 	"strings"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/lang"
-	"fyne.io/fyne/v2/storage"
-	"fyne.io/fyne/v2/storage/repository"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/container"
+	"github.com/monceaux/fyne/v2/lang"
+	"github.com/monceaux/fyne/v2/storage"
+	"github.com/monceaux/fyne/v2/storage/repository"
+	"github.com/monceaux/fyne/v2/theme"
+	"github.com/monceaux/fyne/v2/widget"
 )
 
 // ViewLayout can be passed to SetView() to set the view of

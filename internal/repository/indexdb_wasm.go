@@ -6,9 +6,9 @@ import (
 	"context"
 	"syscall/js"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/storage"
-	"fyne.io/fyne/v2/storage/repository"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/storage"
+	"github.com/monceaux/fyne/v2/storage/repository"
 
 	"github.com/hack-pad/go-indexeddb/idb"
 )

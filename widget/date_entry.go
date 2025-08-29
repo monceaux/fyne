@@ -3,8 +3,8 @@ package widget
 import (
 	"time"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/theme"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/theme"
 )
 
 // DateEntry is an input field which supports selecting from a fixed set of options.

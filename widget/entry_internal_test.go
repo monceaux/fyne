@@ -5,13 +5,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/driver/desktop"
-	"fyne.io/fyne/v2/internal/cache"
-	intWidget "fyne.io/fyne/v2/internal/widget"
-	"fyne.io/fyne/v2/test"
-	"fyne.io/fyne/v2/theme"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/canvas"
+	"github.com/monceaux/fyne/v2/driver/desktop"
+	"github.com/monceaux/fyne/v2/internal/cache"
+	intWidget "github.com/monceaux/fyne/v2/internal/widget"
+	"github.com/monceaux/fyne/v2/test"
+	"github.com/monceaux/fyne/v2/theme"
 )
 
 func clickPrimary(e *Entry, ev *fyne.PointEvent) {

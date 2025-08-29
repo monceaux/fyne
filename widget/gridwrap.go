@@ -5,13 +5,13 @@ import (
 	"math"
 	"sort"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/data/binding"
-	"fyne.io/fyne/v2/driver/desktop"
-	"fyne.io/fyne/v2/internal/async"
-	"fyne.io/fyne/v2/internal/widget"
-	"fyne.io/fyne/v2/theme"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/canvas"
+	"github.com/monceaux/fyne/v2/data/binding"
+	"github.com/monceaux/fyne/v2/driver/desktop"
+	"github.com/monceaux/fyne/v2/internal/async"
+	"github.com/monceaux/fyne/v2/internal/widget"
+	"github.com/monceaux/fyne/v2/theme"
 )
 
 // Declare conformity with interfaces.

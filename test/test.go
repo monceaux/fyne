@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/driver/desktop"
-	"fyne.io/fyne/v2/internal/cache"
-	intdriver "fyne.io/fyne/v2/internal/driver"
-	"fyne.io/fyne/v2/internal/painter/software"
-	"fyne.io/fyne/v2/internal/test"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/driver/desktop"
+	"github.com/monceaux/fyne/v2/internal/cache"
+	intdriver "github.com/monceaux/fyne/v2/internal/driver"
+	"github.com/monceaux/fyne/v2/internal/painter/software"
+	"github.com/monceaux/fyne/v2/internal/test"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -47,7 +47,7 @@ func AssertObjectRendersToImage(t *testing.T, masterFilename string, o fyne.Canv
 	return AssertRendersToImage(t, masterFilename, c, msgAndArgs...)
 }
 
-// RenderObjectToMarkup renders the given [fyne.io/fyne/v2.CanvasObject] to a markup string.
+// RenderObjectToMarkup renders the given [github.com/monceaux/fyne/v2.CanvasObject] to a markup string.
 //
 // Since: 2.6
 func RenderObjectToMarkup(o fyne.CanvasObject) string {
@@ -102,7 +102,7 @@ func AssertRendersToImage(t *testing.T, masterFilename string, c fyne.Canvas, ms
 	return test.AssertImageMatches(t, masterFilename, c.Capture(), msgAndArgs...)
 }
 
-// RenderToMarkup renders the given [fyne.io/fyne/v2.Canvas] to a markup string.
+// RenderToMarkup renders the given [github.com/monceaux/fyne/v2.Canvas] to a markup string.
 //
 // Since: 2.6
 func RenderToMarkup(c fyne.Canvas) string {

@@ -4,10 +4,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/lang"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/lang"
+	"github.com/monceaux/fyne/v2/theme"
+	"github.com/monceaux/fyne/v2/widget"
 )
 
 const (

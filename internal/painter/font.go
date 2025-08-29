@@ -16,11 +16,11 @@ import (
 	"github.com/go-text/typesetting/shaping"
 	"golang.org/x/image/math/fixed"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/async"
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/lang"
-	"fyne.io/fyne/v2/theme"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/internal/async"
+	"github.com/monceaux/fyne/v2/internal/cache"
+	"github.com/monceaux/fyne/v2/lang"
+	"github.com/monceaux/fyne/v2/theme"
 )
 
 const (

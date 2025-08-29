@@ -6,16 +6,16 @@ import (
 	"net/url"
 	"time"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/cmd/fyne_demo/data"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/data/validation"
-	"fyne.io/fyne/v2/dialog"
-	"fyne.io/fyne/v2/driver/mobile"
-	"fyne.io/fyne/v2/layout"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/canvas"
+	"github.com/monceaux/fyne/v2/cmd/fyne_demo/data"
+	"github.com/monceaux/fyne/v2/container"
+	"github.com/monceaux/fyne/v2/data/validation"
+	"github.com/monceaux/fyne/v2/dialog"
+	"github.com/monceaux/fyne/v2/driver/mobile"
+	"github.com/monceaux/fyne/v2/layout"
+	"github.com/monceaux/fyne/v2/theme"
+	"github.com/monceaux/fyne/v2/widget"
 )
 
 const (

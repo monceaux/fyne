@@ -4,7 +4,7 @@ package build
 import (
 	"sync"
 
-	"fyne.io/fyne/v2"
+	"github.com/monceaux/fyne/v2"
 )
 
 var (

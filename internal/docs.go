@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/url"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/storage"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/storage"
 )
 
 var errNoAppID = errors.New("storage API requires a unique ID, use app.NewWithID()")

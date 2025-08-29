@@ -7,14 +7,14 @@ import (
 	"io"
 	"log"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/data/validation"
-	"fyne.io/fyne/v2/dialog"
-	"fyne.io/fyne/v2/storage"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/canvas"
+	"github.com/monceaux/fyne/v2/container"
+	"github.com/monceaux/fyne/v2/data/validation"
+	"github.com/monceaux/fyne/v2/dialog"
+	"github.com/monceaux/fyne/v2/storage"
+	"github.com/monceaux/fyne/v2/theme"
+	"github.com/monceaux/fyne/v2/widget"
 )
 
 func confirmCallback(response bool) {

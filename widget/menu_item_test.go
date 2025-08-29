@@ -9,11 +9,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/cache"
-	internalWidget "fyne.io/fyne/v2/internal/widget"
-	"fyne.io/fyne/v2/test"
-	"fyne.io/fyne/v2/theme"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/internal/cache"
+	internalWidget "github.com/monceaux/fyne/v2/internal/widget"
+	"github.com/monceaux/fyne/v2/test"
+	"github.com/monceaux/fyne/v2/theme"
 )
 
 //go:embed testdata/fyne.png

@@ -6,11 +6,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/data/binding"
-	"fyne.io/fyne/v2/test"
-	"fyne.io/fyne/v2/widget"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/container"
+	"github.com/monceaux/fyne/v2/data/binding"
+	"github.com/monceaux/fyne/v2/test"
+	"github.com/monceaux/fyne/v2/widget"
 )
 
 var globalProgressRenderer fyne.WidgetRenderer

@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/cmd/fyne/internal/mobile"
-	"fyne.io/fyne/v2/cmd/fyne/internal/templates"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/cmd/fyne/internal/mobile"
+	"github.com/monceaux/fyne/v2/cmd/fyne/internal/templates"
 
 	"golang.org/x/sys/execabs"
 )

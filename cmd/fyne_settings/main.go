@@ -1,10 +1,10 @@
 package main
 
 import (
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/app"
-	"fyne.io/fyne/v2/cmd/fyne_settings/settings"
-	"fyne.io/fyne/v2/container"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/app"
+	"github.com/monceaux/fyne/v2/cmd/fyne_settings/settings"
+	"github.com/monceaux/fyne/v2/container"
 )
 
 func main() {

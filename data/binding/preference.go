@@ -3,7 +3,7 @@ package binding
 import (
 	"sync/atomic"
 
-	"fyne.io/fyne/v2"
+	"github.com/monceaux/fyne/v2"
 )
 
 // Work around Go not supporting generic methods on non-generic types:

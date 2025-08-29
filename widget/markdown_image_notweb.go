@@ -3,8 +3,8 @@
 package widget
 
 import (
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/storage"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/storage"
 	"github.com/yuin/goldmark/ast"
 )
 

@@ -1,8 +1,8 @@
 package theme
 
 import (
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/cache"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/internal/cache"
 )
 
 type FeatureName string

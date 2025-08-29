@@ -3,8 +3,8 @@ package canvas
 import (
 	"image/color"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/svg"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/internal/svg"
 )
 
 // Refresh instructs the containing canvas to refresh the specified obj.

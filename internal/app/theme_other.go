@@ -3,8 +3,8 @@
 package app
 
 import (
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/theme"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/internal/theme"
 )
 
 // DefaultVariant returns the systems default fyne.ThemeVariant.

@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/lang"
-	"fyne.io/fyne/v2/layout"
-	"fyne.io/fyne/v2/theme"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/lang"
+	"github.com/monceaux/fyne/v2/layout"
+	"github.com/monceaux/fyne/v2/theme"
 )
 
 // Declare conformity with Layout interface

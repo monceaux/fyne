@@ -4,14 +4,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"fyne.io/fyne/v2/lang"
+	"github.com/monceaux/fyne/v2/lang"
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/storage"
-	"fyne.io/fyne/v2/test"
-	"fyne.io/fyne/v2/widget"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/container"
+	"github.com/monceaux/fyne/v2/storage"
+	"github.com/monceaux/fyne/v2/test"
+	"github.com/monceaux/fyne/v2/widget"
 )
 
 func TestShowFolderOpen(t *testing.T) {

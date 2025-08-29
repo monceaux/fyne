@@ -4,16 +4,16 @@ import (
 	"image/color"
 	"reflect"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/internal"
-	"fyne.io/fyne/v2/internal/app"
-	"fyne.io/fyne/v2/internal/async"
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/internal/driver"
-	"fyne.io/fyne/v2/internal/painter/gl"
-	"fyne.io/fyne/v2/internal/theme"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/canvas"
+	"github.com/monceaux/fyne/v2/container"
+	"github.com/monceaux/fyne/v2/internal"
+	"github.com/monceaux/fyne/v2/internal/app"
+	"github.com/monceaux/fyne/v2/internal/async"
+	"github.com/monceaux/fyne/v2/internal/cache"
+	"github.com/monceaux/fyne/v2/internal/driver"
+	"github.com/monceaux/fyne/v2/internal/painter/gl"
+	"github.com/monceaux/fyne/v2/internal/theme"
 )
 
 // SizeableCanvas defines a canvas with size related functions.

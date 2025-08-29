@@ -3,8 +3,8 @@ package binding
 import (
 	"bytes"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/storage"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/storage"
 )
 
 // DataTreeRootID const is the value used as ID for the root of any tree binding.

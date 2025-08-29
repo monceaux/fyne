@@ -4,11 +4,11 @@ import (
 	"image/color"
 	"net/url"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/driver/desktop"
-	"fyne.io/fyne/v2/internal/widget"
-	"fyne.io/fyne/v2/theme"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/canvas"
+	"github.com/monceaux/fyne/v2/driver/desktop"
+	"github.com/monceaux/fyne/v2/internal/widget"
+	"github.com/monceaux/fyne/v2/theme"
 )
 
 var _ fyne.Focusable = (*Hyperlink)(nil)

@@ -7,8 +7,8 @@ import (
 
 	"golang.org/x/sys/windows/registry"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/theme"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/internal/theme"
 )
 
 const themeRegKey = `SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize`

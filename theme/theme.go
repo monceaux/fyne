@@ -1,5 +1,5 @@
 // Package theme defines how a Fyne app should look when rendered.
-package theme // import "fyne.io/fyne/v2/theme"
+package theme // import "github.com/monceaux/fyne/v2/theme"
 
 import (
 	"bytes"
@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"fyne.io/fyne/v2"
-	internalApp "fyne.io/fyne/v2/internal/app"
-	"fyne.io/fyne/v2/internal/cache"
-	internaltheme "fyne.io/fyne/v2/internal/theme"
+	"github.com/monceaux/fyne/v2"
+	internalApp "github.com/monceaux/fyne/v2/internal/app"
+	"github.com/monceaux/fyne/v2/internal/cache"
+	internaltheme "github.com/monceaux/fyne/v2/internal/theme"
 )
 
 // Keep in mind to add new constants to the tests at test/theme.go.

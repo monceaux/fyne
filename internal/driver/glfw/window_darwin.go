@@ -14,7 +14,7 @@ import "C"
 import (
 	"runtime"
 
-	"fyne.io/fyne/v2/driver"
+	"github.com/monceaux/fyne/v2/driver"
 )
 
 // assert we are implementing driver.NativeWindow

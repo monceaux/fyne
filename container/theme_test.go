@@ -5,13 +5,13 @@ import (
 	"image/color"
 	"testing"
 
-	"fyne.io/fyne/v2/canvas"
+	"github.com/monceaux/fyne/v2/canvas"
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/test"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/monceaux/fyne/v2/internal/cache"
+	"github.com/monceaux/fyne/v2/test"
+	"github.com/monceaux/fyne/v2/theme"
+	"github.com/monceaux/fyne/v2/widget"
 )
 
 func TestThemeOverride_AddChild(t *testing.T) {

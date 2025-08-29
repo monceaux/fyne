@@ -4,16 +4,16 @@ import (
 	"image"
 	"math"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/internal"
-	"fyne.io/fyne/v2/internal/app"
-	"fyne.io/fyne/v2/internal/build"
-	"fyne.io/fyne/v2/internal/driver"
-	"fyne.io/fyne/v2/internal/driver/common"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/canvas"
+	"github.com/monceaux/fyne/v2/container"
+	"github.com/monceaux/fyne/v2/internal"
+	"github.com/monceaux/fyne/v2/internal/app"
+	"github.com/monceaux/fyne/v2/internal/build"
+	"github.com/monceaux/fyne/v2/internal/driver"
+	"github.com/monceaux/fyne/v2/internal/driver/common"
+	"github.com/monceaux/fyne/v2/theme"
+	"github.com/monceaux/fyne/v2/widget"
 )
 
 // Declare conformity with Canvas interface

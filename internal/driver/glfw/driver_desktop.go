@@ -11,14 +11,14 @@ import (
 	"syscall"
 	"time"
 
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/internal/painter"
-	"fyne.io/fyne/v2/internal/svg"
-	"fyne.io/fyne/v2/lang"
+	"github.com/monceaux/fyne/v2/canvas"
+	"github.com/monceaux/fyne/v2/internal/painter"
+	"github.com/monceaux/fyne/v2/internal/svg"
+	"github.com/monceaux/fyne/v2/lang"
 	"fyne.io/systray"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/theme"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/theme"
 )
 
 const desktopDefaultDoubleTapDelay = 300 * time.Millisecond

@@ -4,10 +4,10 @@ import (
 	"image/color"
 	"time"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	col "fyne.io/fyne/v2/internal/color"
-	"fyne.io/fyne/v2/theme"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/canvas"
+	col "github.com/monceaux/fyne/v2/internal/color"
+	"github.com/monceaux/fyne/v2/theme"
 )
 
 var timeNow = time.Now // used in tests

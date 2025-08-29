@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/async"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/internal/async"
 )
 
 var (

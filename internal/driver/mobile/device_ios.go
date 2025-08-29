@@ -2,7 +2,7 @@
 
 package mobile
 
-import "fyne.io/fyne/v2"
+import "github.com/monceaux/fyne/v2"
 
 const tapYOffset = -8.0 // to compensate for how we hold our fingers on the device
 

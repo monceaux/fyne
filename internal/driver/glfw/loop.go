@@ -5,13 +5,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/app"
-	"fyne.io/fyne/v2/internal/async"
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/internal/driver/common"
-	"fyne.io/fyne/v2/internal/painter"
-	"fyne.io/fyne/v2/internal/scale"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/internal/app"
+	"github.com/monceaux/fyne/v2/internal/async"
+	"github.com/monceaux/fyne/v2/internal/cache"
+	"github.com/monceaux/fyne/v2/internal/driver/common"
+	"github.com/monceaux/fyne/v2/internal/painter"
+	"github.com/monceaux/fyne/v2/internal/scale"
 )
 
 type funcData struct {

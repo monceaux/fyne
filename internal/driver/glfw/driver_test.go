@@ -5,10 +5,10 @@ package glfw
 import (
 	"testing"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/widget"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/container"
+	"github.com/monceaux/fyne/v2/internal/cache"
+	"github.com/monceaux/fyne/v2/widget"
 
 	"github.com/stretchr/testify/assert"
 )

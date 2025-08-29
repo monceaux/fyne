@@ -1,7 +1,7 @@
 package layout
 
 import (
-	"fyne.io/fyne/v2"
+	"github.com/monceaux/fyne/v2"
 )
 
 // Declare conformity with Layout interface

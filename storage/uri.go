@@ -3,8 +3,8 @@ package storage
 import (
 	"path/filepath"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/storage/repository"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/storage/repository"
 )
 
 // EqualURI returns true if the two URIs are equal.

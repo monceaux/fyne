@@ -3,8 +3,8 @@ package theme
 import (
 	"image/color"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/svg"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/internal/svg"
 )
 
 const (

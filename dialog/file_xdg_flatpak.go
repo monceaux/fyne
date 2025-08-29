@@ -5,11 +5,11 @@ package dialog
 import (
 	"strings"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/driver"
-	"fyne.io/fyne/v2/internal/build"
-	"fyne.io/fyne/v2/lang"
-	"fyne.io/fyne/v2/storage"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/driver"
+	"github.com/monceaux/fyne/v2/internal/build"
+	"github.com/monceaux/fyne/v2/lang"
+	"github.com/monceaux/fyne/v2/storage"
 
 	"github.com/rymdport/portal"
 	"github.com/rymdport/portal/filechooser"
