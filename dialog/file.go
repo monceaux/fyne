@@ -1,6 +1,7 @@
 package dialog
 
 import (
+	"bytes"
 	"errors"
 	"fmt"
 	"os"
@@ -9,6 +10,7 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/disintegration/imaging"
 	"github.com/monceaux/fyne/v2"
 	"github.com/monceaux/fyne/v2/container"
 	"github.com/monceaux/fyne/v2/lang"
@@ -389,6 +391,47 @@ func (f *fileDialog) loadFavorites() {
 	}
 }
 
+type wURIWithIcon struct {
+	fyne.URI
+}
+
+func (w *wURIWithIcon) Icon() fyne.Resource {
+	if w.MimeType() == "image/png" {
+		finfo, err := os.Stat(w.Path())
+		if err != nil {
+			fmt.Printf("error getting file size: %v\n", err)
+			return nil
+		}
+
+		// only try and render if less than 10 megs
+		if finfo.Size() > 10000000 {
+			return nil
+		}
+
+		src, err := imaging.Open(w.Path())
+		if err != nil {
+			fmt.Printf("error opening image: %v\n", err)
+			return nil
+		}
+		thumb := imaging.Fit(src, 64, 64, imaging.Lanczos)
+		buf := new(bytes.Buffer)
+		err = imaging.Encode(buf, thumb, imaging.PNG)
+		if err != nil {
+			fmt.Printf("error saving image: %v\n", err)
+			return nil
+		}
+
+		icon := fyne.NewStaticResource(w.Name(), buf.Bytes())
+
+		// icon, err := fyne.LoadResourceFromPath(w.Path())
+		// if err != nil {
+		// 	return nil
+		// }
+		return icon
+	}
+	return nil
+}
+
 func (f *fileDialog) refreshDir(dir fyne.ListableURI) {
 	f.data = nil
 
@@ -419,7 +462,24 @@ func (f *fileDialog) refreshDir(dir fyne.ListableURI) {
 		} else if err == nil { // URI points to a directory
 			icons = append(icons, listable)
 		} else if f.file.filter == nil || f.file.filter.Matches(file) {
-			icons = append(icons, file)
+			if file.MimeType() == "image/png" {
+				finfo, err := os.Stat(file.Path())
+				if err != nil {
+					fmt.Printf("error getting file size: %v\n", err)
+					icons = append(icons, file)
+				} else {
+					if finfo.Size() <= 10000000 {
+						tmpicon := &wURIWithIcon{
+							URI: file,
+						}
+						icons = append(icons, tmpicon)
+					} else {
+						icons = append(icons, file)
+					}
+				}
+			} else {
+				icons = append(icons, file)
+			}
 		}
 	}
 
