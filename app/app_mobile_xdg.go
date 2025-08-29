@@ -6,7 +6,7 @@ import (
 	"errors"
 	"net/url"
 
-	"fyne.io/fyne/v2"
+	"github.com/monceaux/fyne/v2"
 )
 
 func (a *fyneApp) OpenURL(_ *url.URL) error {

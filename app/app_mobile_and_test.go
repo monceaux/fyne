@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"fyne.io/fyne/v2/internal/app"
+	"github.com/monceaux/fyne/v2/internal/app"
 
 	"github.com/stretchr/testify/assert"
 )

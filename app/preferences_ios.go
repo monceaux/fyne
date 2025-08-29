@@ -5,7 +5,7 @@ package app
 import (
 	"path/filepath"
 
-	"fyne.io/fyne/v2/internal/app"
+	"github.com/monceaux/fyne/v2/internal/app"
 )
 import "C"
 

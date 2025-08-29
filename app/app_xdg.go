@@ -14,10 +14,10 @@ import (
 	portalSettings "github.com/rymdport/portal/settings"
 	"github.com/rymdport/portal/settings/appearance"
 
-	"fyne.io/fyne/v2"
-	internalapp "fyne.io/fyne/v2/internal/app"
-	"fyne.io/fyne/v2/internal/build"
-	"fyne.io/fyne/v2/theme"
+	"github.com/monceaux/fyne/v2"
+	internalapp "github.com/monceaux/fyne/v2/internal/app"
+	"github.com/monceaux/fyne/v2/internal/build"
+	"github.com/monceaux/fyne/v2/theme"
 )
 
 const systemTheme = fyne.ThemeVariant(99)

@@ -17,7 +17,7 @@ import (
 	"os"
 	"os/exec"
 
-	"fyne.io/fyne/v2"
+	"github.com/monceaux/fyne/v2"
 )
 
 func (a *fyneApp) OpenURL(url *url.URL) error {

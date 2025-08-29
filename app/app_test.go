@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/test"
+	"github.com/monceaux/fyne/v2"
+	"github.com/monceaux/fyne/v2/test"
 )
 
 func TestDummyApp(t *testing.T) {
